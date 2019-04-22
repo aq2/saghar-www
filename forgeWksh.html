@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apply Forge Yoga Centre workshop</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="code/jquery.validate.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+	<div id="container">
+		
+		<header>
+			<img src="images/header.jpg">
+			<h1>Ayurvedic Yoga Massage</h1>
+		</header>
+		
+		<div id='apply_navbar'> 
+			<div>
+				<a href="index.html"><p>back to main site</p></a>
+			</div>
+		</div> <!-- end navBar -->
+
+		<div id="info">
+			<h2>Ayurvedic Yoga Massage Workshop</h2>
+			<h4>Saturday 12th March 2016 2 - 5pm</h4>
+			<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.460711938572!2d-3.6879785066459623!3d50.43251866702196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2dfb6dfbea557efb!2sNeal&#39;s+Yard-totnes!5e0!3m2!1sen!2suk!4v1421959058996" frameborder="0" class="map"></iframe> -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10166.146388558383!2d-3.6920536!3d50.431105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3faa75bcea6077a!2sThe+Forge+Yoga+Centre!5e0!3m2!1sen!2suk!4v1453824564132" frameborder="0" class="map"></iframe>
+			<h4>Forge Yoga Studio, Collins Road, Totnes</h4>
+			<p>&pound;30 for individuals, &pound;50 for a couple (any partner or friend)</p>
+			<p>&pound;10 non-refundable deposit for client cancellation<br>
+			 Full refund for instructor cancellation</p>  
+		</div> <!-- end info -->
+
+		<div class="form_wrapper">
+			<form name="wksh" id="wksh" class="wkshp_form" method="post" action="code/generalForm.php">
+				<p>To book and pay for a place on this workshop,<br>
+				 please fill out the following form,<br>
+			   and I'll get back to you as soon as I can.</p>
+				<fieldset>		
+					<p>Your details</p>
+					<div>
+						<input type='text' name='name' id='name' placeholder='Your name' autocomplete='off' tabindex='1' class='txtinput' required>
+					</div>
+					<div>
+						<input type="tel" name="tel" id="tel" placeholder='Your phone number' autocomplete='off' tabindex='1' class='txtinput' required>
+					</div>
+					<div>
+						<input type="email" name="email" id="email" placeholder='Your email address' autocomplete='off' tabindex='1' class='txtinput' required>
+					</div>
+					<div>
+						<select name="tickets" form="wksh">
+						  <option value="deposit">Deposit: &nbsp;&pound;10</option>
+						  <option value="single_full">Full single ticket: &nbsp;&pound;30</option>
+						  <option value="single_remainder">Remaining balance for single: &nbsp;&pound;20</option>
+						  <option value="couple_full">Full double ticket: &nbsp;&pound;50</option>
+						  <option value="couple_remainder">Remaining balance for double: &nbsp;&pound;40</option>
+						</select>
+					</div>
+					<div>
+						<input type="hidden" name="subject" value="Forge workshop 12 March">
+						<input type="submit" value="Continue to PayPal" name="button">
+					</div>
+				</fieldset>
+			</form>
+
+			<script>
+				$.validator.messages.required = "We really do need this info!";
+				$("#wksh").validate({
+  				submitHandler: function(form) {
+	    			form.submit();
+  				}
+				});
+			</script>
+
+		</div> <!-- end wkshp_form --> 
+	</div>  <!-- end container -->
+
+</body>
+</html>

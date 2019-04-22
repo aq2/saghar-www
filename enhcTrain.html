@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apply intensive training course</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="code/jquery.validate.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+	<div id="container">
+		
+		<header>
+			<img src="images/header.jpg">
+			<h1>Ayurvedic Yoga Massage</h1>
+		</header>
+		
+		<div id='apply_navbar'>
+			<div>
+				<a href="index.html"><p>back to main site</p></a>
+			</div>
+		</div> <!-- end navbar -->
+
+		<div id="info">
+			<h2>Ayurvedic Yoga Massage Training</h2>
+			<h4>Thursday 13th - Sunday 16th October 2016 10am - 5pm</h4>
+			<h4>Friday 3rd - Monday 6th February 2017 10am - 5pm</h4>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.7515122635664!2d-3.531833999999999!3d50.724548999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43be056ab43%3A0x71fe3cac927301e6!2sExeter+Natural+Health+Centre!5e0!3m2!1sen!2suk!4v1426589635732" frameborder="0" class='map'></iframe>
+			<h4>Exeter Natural Health Centre, 83-84 Queens Street, Exeter</h4>
+			<p>&pound;350 for individuals, &pound;90 deposit requested at latest two weeks before start date</p>
+			<p>Full refund for instructor cancellation</p>
+			<p>It is important to have attended a workshop session before taking the training course.<br>Alternatively, you can phone or <a href="mailto:saghar@ayurvedicyogamassage.org.uk">email</a> Saghar to arrange a short interview.</p>
+		</div> <!-- end info -->
+
+		<div class="form_wrapper">
+			<form name="wksh" id="wksh" class="wkshp_form" method="post" action="code/trainingForm.php">
+				<p>To apply for a place on this training course, please fill out the following form, and I'll get back to you as soon as I can.</p>
+			  <p>I care about your privacy, and I will not share any of your information with anybody.</p> 
+				<fieldset>		
+					<br>
+					<!-- <p>Your details</p> -->
+					<div>
+						<input type='text' name='name' id='name' placeholder='Your name' autocomplete='off' tabindex='1' required>
+					</div>
+	
+					<div>
+						<select name="gender" id="gender" form="wksh">
+							<option value="female">female</option>
+							<option value="male">male</option>
+							<option value="other-gender">it's complicated</option>
+						</select>
+					</div>
+
+					<div>
+						<input type='number' name='age' id='age' placeholder='Your age' autocomplete='off' tabindex='1' required>
+					</div>
+
+					<div>
+						<input type="tel" name="tel" id="tel" placeholder='Your phone number' autocomplete='off' tabindex='1' required>
+					</div>
+	
+					<div>
+						<input type="email" name="email" id="email" placeholder='Your email address' autocomplete='off' tabindex='1' required>
+					</div>
+					
+					<div>
+						<span class="question">
+						Any relevant health conditions? </span><input type="checkbox" id="health-box">
+		  				<textarea id="health" name="health" rows="3" cols="30" placeholder="Please provide brief details..." required></textarea>
+					</div>
+	
+					<div>
+						<span class="question">Are you taking any medications? </span><input type="checkbox" id="meds-box">
+		  				<textarea id="meds" name="medic" rows="3" cols="30" placeholder="Please provide brief details..." required></textarea>
+					</div>
+
+					<div>
+						<span class="question">Do you have any other training course qualifications? </span><input type="checkbox" id="quals-box">
+		  				<textarea id="quals" name="quals" rows="3" cols="30" placeholder="Please provide brief details..." required></textarea>
+					</div>
+
+					<div>
+						<span class="question">Have you taken any of our workshops? </span><input type="checkbox" id="wksh-box">
+		  				<textarea id="workshop" name="wksh" rows="3" cols="30" placeholder="Please provide brief details of location and approximate date..." required></textarea>
+					</div>
+
+					<!-- 
+					<div>
+						<select name="tickets" form="wksh" id='tickets'>
+						  <option value="deposit">Deposit: &nbsp;&pound;90</option>
+						  <option value="single">Full ticket: &nbsp;&pound;350</option>
+						  <option value="single_remainder">Remaining balance: &nbsp;&pound;260&nbsp;</option>
+						</select>
+					</div> 
+					-->
+
+					<div>
+						<input type="hidden" name="subject" value="Exeter Natural Health Centre Training 23-26 June">
+						<input type="submit" value="Apply for course" name="button">
+					</div>
+				</fieldset>
+			</form>
+
+ 			
+
+		</div> <!-- end wkshp_form --> 
+	</div>  <!-- end container -->
+
+	<script>
+
+				$(document).ready(function() {
+					$("#health-box").click(function() {
+						$("#health").fadeToggle(400);
+					});
+					$("#meds-box").click(function() {
+						$("#meds").fadeToggle(400);
+					});
+					$("#quals-box").click(function() {
+						$("#quals").fadeToggle(400);
+					});
+					$("#wksh-box").click(function() {
+						$("#workshop").fadeToggle(400);
+					});
+				});
+
+				$.validator.messages.required = "We really do need this info!";
+				$("#wksh").validate({
+  				submitHandler: function(form) {
+    				form.submit();
+  				}
+				});
+			</script>
+
+
+
+</body>
+</html>

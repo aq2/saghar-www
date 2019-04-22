@@ -1,0 +1,220 @@
+....   Stuff to do for Saghar's website   ....
+
+priority:
+
+
+
+
+new - today:
+
+me:
+   ☐ check form for media queries - blade?
+      ☐ reduce font-size in form input for really small screens 
+   ☐ add text to paypal page image, or modify paypal style
+
+maybe:
+      
+   
+to ask about/remind:
+ 
+wait for:
+
+time tracking:
+   16.4.15: 0.5 hr - change price for David Sye, remove Tehran and Turkey
+   21.4.15: 0.25 hr - redo david sye, add £45 back in
+   26.4.15: 0.25 hr - remove david sye
+   1.5.15:  0.75 hr - add neal's yard 4th july wkshop
+   8.5.15   0.25 hr - remove lotus loft wkshop
+   24.6.15  0.75 hr - add enhc 8th aug workshop
+   10.7.15  0.5 hr  - add pictures to gallery
+   20.8.15  2.5 hr - add training form and paypal
+   8.9.15   1 hr - test forms and improve
+   9.9.15   0.25 hr - small changes to training text
+   13.9.15  0.25 hr - remove workshop
+   25.9.15? had a half-hour massage
+   1.10.15  0.25 hr - dig out some graphics for her
+   2.10.15  1 hr - add neals and ashtanga workshops and test 
+
+
+----------------------------------------------------
+
+Archive:
+ ✔ change sendto email on form @done (31-07-14 16:44) @project(me)
+ ✔ style error messages @done (31-01-15 16:00) @project(me)
+ ✔ change "this field is required" - use rules? see demo.htm @done (31-01-15 16:00) @project(me)
+ ✔ style please wait php html @done (31-01-15 15:06) @project(me)
+ ✔ style paypal @done (31-01-15 14:26) @project(me)
+ ✔ add error.htm? (for contactengine error reply) @done (31-01-15 14:26) @project(me)
+ ✔ build apply and contactengine pages for each do - only couple more? @done (31-01-15 14:25) @project(priority)
+ ✔ add success.html for after paypal @done (31-01-15 14:25) @project(me)
+ ✔ add cancel.html for after paypal @done (31-01-15 14:25) @project(me)
+ ✔ lotus loft @done (31-01-15 14:24) @project(priority)
+ ✔ derekthedog @done (31-01-15 14:24) @project(priority)
+ ✔ for each workshop/course @done (31-01-15 13:56) @project(me)
+ ✔ contactengine_neal @done (31-01-15 13:56) @project(me)
+ ✔ apply_neal  @done (31-01-15 13:56) @project(me)
+ ✔ add new workshops - make link to application form and info/paypal page @done (31-01-15 13:56) @project(me)
+ ✔ paypal button for each one too @done (31-01-15 13:29) @project(me)
+ ✔ check dave 55 price tag @done (31-01-15 10:55) @project(priority)
+ ✔ make one apply form with dropdown selection for specific course? @done (30-12-14 15:43) @project(me)
+ ✔ change turkey dates @done (30-12-14 14:12) @project(me)
+ ✔ delete dates for intensive -> "to be announced" @done (30-12-14 14:11) @project(me)
+ ✔ do something @done (30-05-14 19:53)
+ ✔ extra hidden field required - info of wkshop!- added to relevant php page @done (30-01-15 21:10) @project(me)
+ ✔ add hidden field for wkshp id @done (30-01-15 21:09) @project(priority)
+ ✔ make dave sye apply page! @done (30-01-15 20:56) @project(me)
+ ✔ dave sye apply page @done (30-01-15 20:56) @project(priority)
+ ✔ style navigation @done (30-01-15 19:46) @project(me)
+ ✔ talk to her about printer - file formats etc @done (30-01-15 17:47) @project(to ask about/remind)
+ ✔ find jquery plugin @done (30-01-15 17:24) @project(me)
+ ✘ php? @cancelled (30-01-15 17:23) @project(me)
+ ✔ refund - £10 deposit or full refund @done (30-01-15 17:23) @project(me)
+ ✔ application form: name, phone, email, paynow! @done (30-01-15 17:23) @project(me)
+ ✔ to include maps @done (30-01-15 17:22) @project(me)
+ ✘ php validation for form data - particularly email address... @cancelled (30-01-15 17:19) @project(me)
+ ✔ investigate vidahost email forwarding @done (30-01-15 17:18) @project(me)
+ ✘ needs its own css page i guess? @cancelled (28-12-14 20:53) @project(media query)
+ ✔ modify contact-thanks so it's responsive and use as 'template' for apply form page @done (28-12-14 20:53) @project(media query)
+ ✔ different pages for contactthanks and applyform - but use same css @done (28-12-14 20:53) @project(media query)
+ ✘ she'll send yoga photo @cancelled (28-12-14 17:34) @project(wait for)
+ ✘ she'll send name of wholefood shop in ottery @cancelled (28-12-14 17:34) @project(wait for)
+ ✔ look at titles after form sent off - all over shop? @done (28-12-14 17:34) @project(me)
+ ✘ shift padding/margin from right to left @cancelled (28-08-14 12:28) @project(me)
+ ✔ yoga classes table - tidy line breaks etc @done (28-08-14 12:28) @project(me)
+ ✘ photoshop bra strap @cancelled (22-07-14 19:17) @project(me)
+ ✔ make thanks page better!!!!!! @done (22-07-14 18:58) @project(me)
+ ✔ fancify @done (22-07-14 18:58) @project(me)
+ ✔ does index need to be php? @done (22-07-14 18:58) @project(me)
+ ✘ centre navbar when a bit scrunched - don't really wanna make a new breakpoint @cancelled (22-07-14 15:25) @project(me)
+ ✔ treatments table too big @done (22-07-14 15:25) @project(media query)
+ ✔ contact page ugly as sin @done (22-07-14 15:25) @project(me)
+ ✔ style new form! @done (22-07-14 15:24) @project(me)
+ ✘ scrollbar on contact page in mobile view - style iframe with css? @cancelled (22-07-14 14:34) @project(media query)
+ ✘ default form entries - error message a bit fucked @cancelled (22-07-14 14:34) @project(me)
+ ✘ remove 'advert' from form - or try chris's???? @cancelled (22-07-14 14:33) @project(me)
+ ✔ in content pages, do we need identical headings to nav elements? @done (22-07-14 14:33) @project(me)
+ ✔ A4 + A6 david sye flyer - colour   A6 - b/w maybe remove photo? use words 'for flyer' @done (22-01-15 18:59) @project(me)
+ ✔ A4 + A6 6 June lotus-loft - same as derek @done (22-01-15 18:59) @project(me)
+ ✘ check new forms @cancelled (22-01-15 17:01) @project(media query)
+ ✘ she'll send info for valentine workshop and level 1 course @cancelled (22-01-15 17:00) @project(wait for)
+ ✘ saghar's sending me info for courses and application form @cancelled (22-01-15 16:53) @project(me)
+ ✘ change dates for non-intensive - make link to application formand info/paypal page for level 1 course  @cancelled (22-01-15 16:51) @project(me)
+ ✔ center locus? @done (21-08-14 19:28) @project(me)
+ ✔ she'll send photo for yoga classes page @done (19-07-14 15:46) @project(jul 19)
+ ✘ maybe classes left right, l66 and r33?? @cancelled (19-07-14 15:45) @project(me)
+ ✔ training page (and yoga classes) = 50/50 layout @done (19-07-14 15:45) @project(jul 19)
+ ✔ centre right div images - add bottom margin too @done (19-07-14 15:45) @project(me)
+ ✔ add new 50/50 div layout for most (?) pages - except treatments and about @done (19-07-14 15:45) @project(me)
+ ✘ can i take form out of iframe? - dont think so -  put it into a pop-up div?? @cancelled (19-07-14 15:44) @project(me)
+ ✔ why do we have gutter class - replace with padding or margin on left or right! @done (19-07-14 15:44) @project(me)
+ ✔ move scripts in index.php to own js file? @done (19-07-14 15:43) @project(me)
+ ✔ she's sending me words for treatments, training and about me @done (19-07-14 14:36) @project(wait for)
+ ✔ contacts - remove crap para, replace with mobile, email, exeter and totnes phones @done (19-07-14 14:35) @project(jul 19)
+ ✔ treatments page - under picture, treatments given exeter etc @done (19-07-14 14:26) @project(jul 19)
+ ✔ treatment table to bottom @done (19-07-14 14:06) @project(jul 19)
+ ✔ new yoga class page @done (19-07-14 14:06) @project(jul 19)
+ ✔ more pictures? @done (19-07-14 14:02) @project(wait for)
+ ✔ domain name - aym.org.uk, aymassociation?  brian @done (19-07-14 14:02) @project(wait for)
+ ✔ make apply_intensive page - plus paypal, contactengine etc @done (17-03-15 11:14) @project(new - 15 March)
+ ✘ but then will need to refer to browser history to see which link is trigger? @cancelled (17-03-15 10:48) @project(maybe)
+ ✔ make a master apply page rather than individuals? @done (17-03-15 10:48) @project(maybe)
+ ✔ lotus single remainder @done (17-03-15 10:48) @project(new - 15 March)
+ ✔ lotus couple remainder @done (17-03-15 10:48) @project(new - 15 March)
+ ✔ david remainder https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XU5GUEUDULQBQ @done (17-03-15 10:48) @project(new - 15 March)
+ ✔ could probably do it with html template and php switches  @done (17-03-15 10:48) @project(maybe)
+ ✘ take all js out of index and link to .js instead? @cancelled (17-03-15 10:28) @project(maybe)
+ ✘ js @cancelled (17-03-15 10:28) @project(maybe)
+ ✘ invoice = £300 in installments she said...PAID 200 22 jan @cancelled (17-03-15 10:28) @project(wait for)
+ ✘ add hover to apply/click here for more info @cancelled (17-03-15 10:27) @project(me)
+ ✔ web fonts  @done (17-03-15 10:26) @project(new - 15 March)
+ ✔ remove Tehran and Turkey training! @done (16-04-15 12:11) @project(new - 16 April)
+ ✔ change price for David Sye, no more early bird @done (16-04-15 12:11) @project(new - 16 April)
+ ✔ paypal etc @done (16-03-11 16:05) @project(priority)
+ ✔ new totnes workshop @done (16-03-11 16:04) @project(priority)
+ ✔ new enhc intensice training @done (16-03-11 16:04) @project(priority)
+ ✔ new ashtanga workshop @done (16-03-11 16:04) @project(priority)
+ ✘ consider more flyers @cancelled (16-03-11 14:34) @project(maybe)
+ ✔ improve thanks page - special rather than generic? @done (15-10-02 19:56) @project(new - today)
+ ✔ charge per hour!! @done (15-10-02 19:56) @project(new - today)
+ ✘ investigate blank emails @cancelled (15-09-08 14:03) @project(new - today)
+ ✔ improve form handling - rationalize and new lines @done (15-09-08 14:03) @project(me)
+ ✔ favicon? @done (15-09-08 14:03) @project(me)
+ ✔ form css? and workshop hmmm @done (15-08-20 14:09) @project(new - today)
+ ✔ add loading spinner to 'transferring...' page @done (15-08-20 14:09) @project(new - today)
+ ✔ php and payment page for training @done (15-08-20 13:15) @project(new - today)
+ ✘ phone number validation - integer enough?? @cancelled (15-08-19 17:27) @project(me)
+ ✘ border radius - shadow etc etc @cancelled (15-08-19 17:27) @project(new - today)
+ ✔ restyle contact form to match apply @done (15-08-19 17:26) @project(me)
+ ✔ repeated classes in forms? @done (15-08-19 17:26) @project(maybe)
+ ✔ rename contact_engine_general? @done (15-08-19 17:26) @project(maybe)
+ ✔ refactoring @done (15-08-19 17:26) @project(maybe)
+ ✔ optimise css generally @done (15-08-19 17:26) @project(maybe)
+ ✔ class='txtinput' needed?/leveraged?  @done (15-08-19 17:26) @project(maybe)
+ ✘ tick colour @cancelled (15-08-19 17:14) @project(new - today)
+ ✘ hover state @cancelled (15-08-19 17:14) @project(new - today)
+ ✔ style checkboxes @done (15-08-19 17:14) @project(new - today)
+ ✔ add new lotus loft 12 september workshop @done (15-07-22 16:41) @project(new - today)
+ ✔ add new pictures to gallery @done (15-07-10 12:54) @project(priority)
+ ✔ update contactengine_general @done (15-06-24 19:14) @project(new - today)
+ ✔ add new workshop @done (15-06-24 19:14) @project(new - today)
+ ✔ 5 new buttons - rename them sensibly eg couples remainder, single full etc @done (15-06-24 19:14) @project(new - today)
+ ✔ remove lotus loft @done (15-06-08 11:13) @project(new - today)
+ ✘ add paypal to training courses? - she'll think about apply form  @cancelled (15-06-03 19:39) @project(wait for)
+ ✘ add paypal for treatment session? - can't pay, but an enquiry booking page? @cancelled (15-06-03 19:39) @project(to ask about/remind)
+ ✔ add new neals yard buttons deposit remainder @done (15-06-01 17:01) @project(new - 16 April)
+ ✔ add new neaks yard 4 july workshop @done (15-06-01 17:00) @project(new - 16 April)
+ ✔ media fucking queries! - left/right width 100% etc @done (07-06-14 13:38) @project(me)
+ ✔ add some bottom margin/paddage? @done (07-06-14 13:37) @project(me)
+ ✘ photoshop bra strap and model logo @cancelled (07-06-14 13:08) @project(4 jun meeting)
+ ✔ not scrolling to right place anymore @done (06-06-14 15:11) @project(media query)
+ ✔ picture for every page? @done (06-06-14 14:23) @project(me)
+ ✔ redo header - increase text size?  or s-t-r-e-t-c-h it out? @done (06-06-14 14:21) @project(me)
+ ✔ nav font @done (06-06-14 14:21) @project(me)
+ ✔ header font @done (06-06-14 14:21) @project(4 jun meeting)
+ ✔ change colour of form and table to brown @done (06-06-14 14:21) @project(4 jun meeting)
+ ✘ vertical rule in gutter? @cancelled (05-06-14 19:38) @project(me)
+ ✘ replace contact photo with landscape - stick underneath blurb @cancelled (05-06-14 19:38) @project(me)
+ ✔ remove workshop picture from gallery @done (05-06-14 19:37) @project(4 jun meeting)
+ ✔ move kusum info underneath - no left/right @done (05-06-14 19:37) @project(4 jun meeting)
+ ✔ lotus.jpg under form @done (05-06-14 19:37) @project(4 jun meeting)
+ ✘ turn footer into ul?? so can space it better @cancelled (05-06-14 12:46) @project(me)
+ ✘ style footsy @cancelled (05-06-14 12:46) @project(me)
+ ✔ colors! - especially accordion @done (05-06-14 12:30) @project(me)
+ ✘ do a jquery colour switcher for navtabs - brown or saffron? @cancelled (05-06-14 12:16) @project(4 jun meeting)
+ ✔ little navbar css bug, they get wider than wally around 932px, click around @done (05-06-14 12:16) @project(me)
+ ✔ eclipse @done (05-06-14 12:16) @project(4 jun meeting)
+ ✔ picture under welcome blah? @done (05-06-14 12:15) @project(me)
+ ✔ sent her email to explain ,musak etc @done (05-06-14 12:13) @project(grand refactoring (which isn't strictly) / other people)
+ ✔ scrollbars on narrow contact pages @done (04-10-14 14:16) @project(me)
+ ✔ replace text from photo, and overlay proper text, can be resized for mobile, even animated! @done (04-10-14 14:15) @project(me)
+ ✔ change AYM text overlaying top graphic @done (04-10-14 14:15) @project(media query)
+ ✔ add para to about me re exeter massage @done (04-10-14 14:15) @project(jul 19)
+ ✔ 'tab' heading sizes in narrow mode change themselves?    @done (04-10-14 14:15) @project(me)
+ ✔ workshop text - sounds awful @done (04-10-14 12:11) @project(jul 19)
+ ✔ add dates to my calendar to remove workshops, change early bird etc @done (04-02-15 22:05) @project(me)
+ ✘ new A4 sye flyers OK before A6? already asked @cancelled (04-02-15 22:04) @project(wait for)
+ ✘ make A6 david if A4 ok - maybe need ask her again @cancelled (04-02-15 22:04) @project(me)
+ ✘ flyers @cancelled (04-02-15 22:04) @project(me)
+ ✔ she'll send info for application form for wshops etc @done (04-02-15 21:27) @project(wait for)
+ ✔ test the fucker! @done (04-02-15 20:43) @project(priority)
+ ✔ add deposit options for all workshops! @done (04-02-15 20:43) @project(priority)
+ ✔ change php - nested switches? :) @done (04-02-15 20:40) @project(priority)
+ ✔ 4 paypal buttons  @done (04-02-15 20:09) @project(priority)
+ ✔ style contact form @done (02-06-14 21:09) @project(me)
+ ✔ gallery @done (02-06-14 21:09) @project(me)
+ ✔ style accordion! @done (01-06-14 17:14) @project(me)
+ ✔ style table - treatments @done (01-06-14 16:44) @project(me)
+ ✔ picture for training - she said she had yurt pictures of trainers @done (01-06-14 16:44) @project(grand refactoring (which isn't strictly) / other people)
+ ✔ stroke on about me images? @done (01-06-14 11:41) @project(me)
+ ✔ remove a links on tabs @done (01-06-14 11:41) @project(grand refactoring (which isn't strictly))
+ ✔ maybe autoscroll to top of whole accordion? @done (01-06-14 11:41) @project(me)
+ ✔ add tab headings for accordion @done (01-06-14 11:41) @project(grand refactoring (which isn't strictly))
+ ✔ $('body,html').animate({ scrollTop: theOffset.top - 20 }); @done (01-06-14 11:41) @project(me)
+  }, 310);
+ ✔ php @done (01-02-15 18:41) @project(maybe)
+ ✔ make a master contact page - form passes hidden info @done (01-02-15 18:41) @project(maybe)
+ ✔ change all /dev references in paypal before going live @done (01-02-15 11:29) @project(me)
+ ✘ make simple info page for turkey - or just download doc? @cancelled (01-01-15 17:21) @project(me)
+ ✔ mobile friendly form? check evernote inbox @done (01-01-15 17:21) @project(me)
+ ✔ paper - leaflet for valentines @done (01-01-15 17:20) @project(me)
+

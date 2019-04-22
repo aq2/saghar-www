@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pay for Intensive Training Course</title>
+	<link rel='stylesheet' type='text/css' href='../css/main.css' />
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+	<script src='../code/jquery.validate.js'></script>
+	<meta name='viewport' content='width=device-width, user-scalable=no'>
+</head>
+<body>
+	<div id='container'>
+		
+		<header>
+			<img src='../images/header.jpg'>
+			<h1>Ayurvedic Yoga Massage</h1>
+		</header>
+		
+		<div id='apply_navbar'>
+			<div>
+				<a href='../index.html'><p>back to main site</p></a>
+			</div>
+		</div> <!-- end navbar -->
+
+		<div id='info'>
+			<h2>Ayurvedic Yoga Massage Training</h2>
+			<h4>You have been accepted to attend one of our intensive training sessions.</h4>	
+			<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.7515122635664!2d-3.531833999999999!3d50.724548999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da43be056ab43%3A0x71fe3cac927301e6!2sExeter+Natural+Health+Centre!5e0!3m2!1sen!2suk!4v1426589635732' frameborder='0' class='map'></iframe>
+			<h4>Exeter Natural Health Centre, 83-84 Queens Street, Exeter</h4>
+			<p>&pound;350 for individuals, &pound;90 deposit requested at latest two weeks before start date</p>
+			<p>Full refund for instructor cancellation</p>
+		</div> <!-- end info -->
+
+		<div class='form_wrapper'>
+			<form name='wksh' id='wksh' class='wkshp_form' method='post' action='../code/pay4training.php'>
+				<p>You can use the form below to select the session and payment type, then connect to PayPal.</p>
+				<fieldset>		
+					<br>
+					<!-- <p>Your details</p> -->
+					<div>
+						<input type='text' name='name' id='name' placeholder='Your name' autocomplete='off' tabindex='1' required>
+					</div>
+	
+					<div>
+						<input type='tel' name='tel' id='tel' placeholder='Your phone number' autocomplete='off' tabindex='1' required>
+					</div>
+	
+					<div>
+						<input type='email' name='email' id='email' placeholder='Your email address' autocomplete='off' tabindex='1' required>
+					</div>
+					
+					<div class="optionz">
+						Which training session?<br>
+						<input type="radio" name="session" value="february intensive training" id="february intensive training" required>
+						<label for="february intensive training"><span><span></span></span>3-6 February 2016</label><br>
+						
+						<input type="radio" name="session" value="june intensive training" id="june intensive training" required>
+						<label for="june intensive training"><span><span></span></span>23-26 June 2016</label><br>
+						
+						<input type="radio" name="session" value="october intensive training" id="october intensive training" >
+						<label for="october intensive training"><span><span></span></span>13-16 October 2016</label>			
+					</div>
+
+					<div class="optionz">
+						Payment type?<br>
+						<input type="radio" name="tickets" value="single_full" id="single_full" required>
+						<label for="single_full"><span><span></span></span>full ticket: &pound;350</label><br>
+						
+						<input type="radio" name="tickets" value="deposit" id="deposit">
+						<label for="deposit"><span><span></span></span>deposit: &pound;90</label><br>
+						
+						<input type="radio" name="tickets" value="single_remainder" id="single_remainder">
+						<label for="single_remainder"><span><span></span></span>remaining balance: &pound;260</label>				
+					</div>
+
+					<div>
+						<input type='submit' value='Pay via PayPal' name='button'>
+					</div>
+				</fieldset>
+			</form>
+
+		</div> <!-- end wkshp_form --> 
+	</div>  <!-- end container -->
+
+	<script>
+
+	$.validator.messages.required = 'We really do need this info!';
+					
+	$('#wksh').validate({ // initialize the plugin
+  rules: {
+      q1: {
+          required: true,
+      }
+  },
+  errorPlacement: function (error, element) {
+      error.insertBefore(element);
+  },
+  errorElement: 'div'
+	});
+
+	</script>
+
+</body>
+</html>
